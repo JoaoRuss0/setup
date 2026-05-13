@@ -41,6 +41,7 @@ git config --global user.email "joaorusso.net@gmail.com"
     # Theme: Light with Light Header
     # Registry: Disable `project.tree.show.url`
     # Setting: Disable "Use Project Colors in Toolbar"
+    # Keymap: Remove "Column selection mode" keymap keybinds
 
 # MacOS
     # Disable Startup Sound
