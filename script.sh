@@ -2,7 +2,7 @@
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-echo >> /Users/joaorusso/.zprofile
+echo >> ~/.zprofile
 echo 'eval "$(/opt/homebrew/bin/brew shellenv zsh)"' >> /Users/$USER/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv zsh)"
 
@@ -27,7 +27,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 # Install SDKMAN
 curl -s "https://get.sdkman.io" | bash
-source "/Users/joaorusso/.sdkman/bin/sdkman-init.sh"
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+sed -i '' 's/^#*sdkman_auto_env=.*/sdkman_auto_env=true/' ~/.sdkman/etc/config
 
 # Install cargo (rust)
 curl https://sh.rustup.rs -sSf | sh
