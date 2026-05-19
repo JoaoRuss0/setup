@@ -8,7 +8,7 @@ eval "$(/opt/homebrew/bin/brew shellenv zsh)"
 
 # Install Software
 brew install --cask ghostty discord firefox jetbrains-toolbox docker-desktop
-brew install maven docker-compose
+brew install maven docker-compose awscli
 
 # .config/ghostty/config.ghostty
 mkdir -p .config/ghostty/
