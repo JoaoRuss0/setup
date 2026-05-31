@@ -45,5 +45,7 @@ git config --global user.email "joaorusso.net@gmail.com"
     # Keymap: Remove "Column selection mode" keymap keybinds
 
 # MacOS
-    # Disable Startup Sound
+    # Settings -> Sound -> Disable: Play sound on startup
+    # Finder -> Settings -> Advanced -> Search the Current Folder
+
 mkdir ~/Developer
