@@ -9,7 +9,7 @@ eval "$(/opt/homebrew/bin/brew shellenv zsh)"
 # Install Software
 brew tap hashicorp/tap
 brew install --cask ghostty discord firefox jetbrains-toolbox docker-desktop
-brew install maven docker-compose awscli hashicorp/tap/terraform
+brew install maven docker-compose awscli hashicorp/tap/terraform hashicorp/tap/packer
 
 # .config/ghostty/config.ghostty
 mkdir -p .config/ghostty/
