@@ -1,0 +1,14 @@
+tap "hashicorp/tap"
+
+brew "bash"
+brew "maven"
+brew "docker-compose"
+brew "awscli"
+brew "hashicorp/tap/terraform"
+brew "hashicorp/tap/packer"
+
+cask "ghostty"
+cask "discord"
+cask "firefox"
+cask "jetbrains-toolbox"
+cask "docker-desktop"
