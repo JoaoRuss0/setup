@@ -6,6 +6,7 @@ brew "docker-compose"
 brew "awscli"
 brew "hashicorp/tap/terraform"
 brew "hashicorp/tap/packer"
+brew "rustup"
 
 cask "ghostty"
 cask "discord"
